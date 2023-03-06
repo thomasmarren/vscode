@@ -1,0 +1,40 @@
+{
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript"],
+  "files.insertFinalNewline": true,
+  "git.openDiffOnClick": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "scm.defaultViewMode": "tree",
+  "search.mode": "newEditor",
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.tsserver.log": "off",
+  "typescript.tsserver.trace": "verbose",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
